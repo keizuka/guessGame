@@ -9,20 +9,14 @@ ndc =  9
 adn = int(input("votre année de naissance : "))# demande a l'utilisateur son année
 mdn = int(input("votre mois de naissance : "))# demande a l'utilisateur son mois
 age = année - adn # calcule l'age de l'utilisateur
-print("")
-print("Mercie pour toute ces précieuse donner personelle nous vous prométons d'en faire bonne usage")
-print("")
-print("Comme ne pas les revendre a divers site en tous genre")
-print("")
-print("ou encore moins faire du vole d'identiter jamais cela ne nous viendrais a l'ésprit")
-print("")
+
 while mdn != mois:# permet de verifier si le mois de naissance est sup ou inf au mois actuel
     if mdn >= mois:# permet de verifier si le mois et sup ou inf au mois de naissance 
-        print("A et au faite vous avez : ",age -1,"ans")
+        print("vous avez : ",age -1,"ans")
         break
     else:
         mdn <= mois
-        print("Et tant que j'en n'ais encore quelque chose a foutre vous avez : ",age,"ans")
+        print("vous avez : ",age,"ans")
         break
 print("")
 print("Et sans plus attendre un petit jeux tres simple")

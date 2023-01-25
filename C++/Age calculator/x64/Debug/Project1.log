@@ -1,0 +1,3 @@
+﻿  main.cpp
+C:\Users\babou\Documents\GitHub\C++\Project1\main.cpp(16,13): warning C4244: 'initialisation' : conversion de 'double' en 'int', perte possible de données
+  Project1.vcxproj -> C:\Users\babou\Documents\GitHub\C++\Project1\x64\Debug\Project1.exe
